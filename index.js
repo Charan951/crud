@@ -6,7 +6,7 @@ dotenv.config();
 
 
 
-const name=process.env.name;
+const name=process.env.last_name;
 console.log(`Name from env file is ${name}`);
 const port= process.env.port;
 
