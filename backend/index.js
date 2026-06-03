@@ -15,8 +15,8 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.get('/kusha', (req, res) => {
-    res.send('Hello kusha!');
+app.get('/mouna', (req, res) => {
+    res.send('Hello mouna!');
 });
 
 console.log(`Name: ${name}`);
